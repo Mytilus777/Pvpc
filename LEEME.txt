@@ -1,0 +1,17 @@
+PVPC HORARIO — PROTOTIPO PWA PARA ANDROID
+
+Características:
+- Interfaz adaptable y modo oscuro.
+- Gráfico de 24 horas, tabla horaria, media, mínimo y máximo.
+- Navegación entre anteayer, ayer, hoy, mañana y pasado mañana.
+- Consulta una API pública por fecha y no inventa precios si falla la consulta.
+
+Importante:
+Es una PWA instalable, no un APK nativo. La API configurada es https://energialert.com/v1/prices?date=AAAA-MM-DD&market=pvpc, pero no se ha podido probar en este entorno. Si el proveedor usa otra ruta, exige clave o bloquea peticiones desde navegador (CORS), habrá que ajustar la conexión antes de publicar.
+
+Para instalar:
+1. Publica estos archivos en un alojamiento HTTPS (por ejemplo GitHub Pages).
+2. Abre la URL en Chrome para Android.
+3. Menú ⋮ > Instalar aplicación o Añadir a pantalla de inicio.
+
+Los precios oficiales de mañana suelen publicarse por la tarde-noche; no se pueden conocer los de pasado mañana con antelación.
